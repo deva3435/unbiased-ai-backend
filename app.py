@@ -10,7 +10,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyAX1RX6EU3F17h6N4IHLwBiwQMHjxcu0VA")
 
 # Use Gemini model
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("models/gemini-1.5-flash")
 
 app = FastAPI()
 
