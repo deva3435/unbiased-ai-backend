@@ -38,7 +38,7 @@ def generate_ai_explanation(rate1, rate2, group1, group2):
         return response.text
 
     except Exception as e:
-        return "AI explanation unavailable"
+    return str(e)
 
 
 def multi_attribute_fairness(df, target_col):
