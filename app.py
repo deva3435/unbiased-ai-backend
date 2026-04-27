@@ -7,10 +7,10 @@ import io
 import google.generativeai as genai
 
 # 🔥 ADD YOUR API KEY HERE
-genai.configure(api_key="AIzaSyAX1RX6EU3F17h6N4IHLwBiwQMHjxcu0VA")
+genai.configure(api_key="AIzaSyDa4z7P1fyFGiOT6EebW89SeNg2FLu0On4")
 
 # Use Gemini model
-model = genai.GenerativeModel("models/gemini-1.5-flash")
+model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 app = FastAPI()
 
