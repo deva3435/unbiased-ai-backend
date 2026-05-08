@@ -12,7 +12,7 @@ import os
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 # Use Gemini model
-model = genai.GenerativeModel("models/gemini-2.5-flash")
+model = genai.GenerativeModel("models/gemini-flash-latest")
 
 app = FastAPI()
 
